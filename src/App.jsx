@@ -2,15 +2,15 @@ import "./styles/main.css"
 
 import Footer from "./components/Footer/Footer"
 import Navbar from "./components/navbar/Navbar"
-import Home from "./pages/Home/Home"
+import Projects from "./pages/Home/Projects"
 
 function App() {
 	return (
 		<div className="App">
 			<Navbar />
 
-			<Home />
-			{/* <Projects /> */}
+			{/* <Home /> */}
+			<Projects />
 			{/* <Contacts /> */}
 
 			<Footer />
